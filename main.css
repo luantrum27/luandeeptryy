@@ -1,0 +1,34 @@
+body {
+    background-color: #581845;
+}
+
+.avatar {
+    border: 5px solid yellow;
+    border-radius: 100px;
+    margin-top: 100px;
+}
+
+.text {
+    color: yellow;
+    font-family: 'Lobster', cursive;
+}
+
+.button {
+    margin: 20px;
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    border-radius: 100px;
+    border: 2px solid yellow;
+    font-family: 'Lobster', cursive;
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+    -webkit-box-shadow: -1px 11px 32px -5px #000000;
+    box-shadow: -1px 11px 32px -5px #000000;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #581845;
+    background-color: yellow;
+}
