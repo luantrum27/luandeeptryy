@@ -1,5 +1,7 @@
 body {
     background-color: #581845;
+    width: 100vw;
+    height: 100vh;
 }
 
 .avatar {
